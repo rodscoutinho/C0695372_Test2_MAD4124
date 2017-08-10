@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ca.mylambton.c0695372.c0695372_test2_mad4124.EmployeeDetailsActivity">
+
+    <TextView
+        android:id="@+id/empId"
+        android:textSize="32sp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Employee Id"/>
+
+    <TextView
+        android:id="@+id/empName"
+        android:textSize="32sp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Name"/>
+
+    <TextView
+        android:id="@+id/empBirthdate"
+        android:textSize="32sp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Birth Date"/>
+
+    <TextView
+        android:id="@+id/empSalary"
+        android:textSize="32sp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Salary"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorAccent"/>
+
+    <TextView
+        android:id="@+id/empFederalTax"
+        android:textSize="32sp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Federal Tax"/>
+
+    <TextView
+        android:id="@+id/empProvinceTax"
+        android:textSize="32sp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Province Tax"/>
+
+    <TextView
+        android:id="@+id/empNetSalary"
+        android:textSize="32sp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Net Salary"/>
+
+</LinearLayout>

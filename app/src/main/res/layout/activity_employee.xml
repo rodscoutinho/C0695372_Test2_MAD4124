@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ca.mylambton.c0695372.c0695372_test2_mad4124.EmployeeActivity">
+
+    <EditText
+        android:id="@+id/eId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Employee ID"/>
+
+    <EditText
+        android:id="@+id/eName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"/>
+
+    <EditText
+        android:id="@+id/eBirthDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Birthdate (dd/mm/yyyy)"
+        android:inputType="date"/>
+
+    <EditText
+        android:id="@+id/eSalary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Salary"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+</LinearLayout>
